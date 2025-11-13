@@ -16,12 +16,12 @@ This utility does **not** create any admin UI for the meta field. It is purely f
 
 ## 1. Installation
 
-1.  Place the entire `rest-meta-utility` directory into your active WordPress theme's folder. The recommended structure is:
+1.  Place the entire `rest-api-meta-fields` directory into your active WordPress theme's folder. The recommended structure is:
 
     ```
     /wp-content/themes/your-theme/
     |-- ... (other theme files)
-    |-- /rest-meta-utility/
+    |-- /rest-api-meta-fields/
     |   |-- load.php
     |   |-- includes/
     |   |   |-- rest-api-extensions.php
@@ -33,7 +33,7 @@ This utility does **not** create any admin UI for the meta field. It is purely f
 
     ```php
     // Load the REST API meta field utility.
-    require get_template_directory() . '/rest-meta-utility/load.php';
+    require get_template_directory() . '/rest-api-meta-fields/load.php';
     ```
 
 3.  Save the file. The REST API field will be active immediately.
